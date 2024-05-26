@@ -9,9 +9,13 @@ This app contains two sections, one for taking the user input and the other is f
 The pre-requisites for this project are:
 
 React
+
 Functional Components
+
 React Hooks
+
 React Axios & API
+
 javascript ES6
 
 **Creating a React application and installing some npm packages:**
