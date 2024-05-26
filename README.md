@@ -1,40 +1,70 @@
-# basic-dictionary-app
+# Getting Started with Create React App
 
-**Approach:**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This app contains two sections, one for taking the user input and the other is for displaying the data. Whenever a user searches for a word, It store that input in a state and trigger an API call based on the searched keyword parameter. After that when the API call is made, This will  simply store that API response in another state variable, and then finally display the information accordingly.
+## Available Scripts
 
-**Prerequisites:**
+In the project directory, you can run:
 
-The pre-requisites for this project are:
+### `npm start`
 
-React
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Functional Components
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-React Hooks
+### `npm test`
 
-React Axios & API
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-javascript ES6
+### `npm run build`
 
-**Creating a React application and installing some npm packages:**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**Step 1:** Create a react application by typing the following command in the terminal:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-npx create-react-app dictionary-app
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**Step 2:** Now, go to the project folder i.e dictionary-app by running the following command:
+### `npm run eject`
 
-cd dictionary-app
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**Step 3:** Let’s install some npm packages required for this project:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-npm install axios
-npm install react-icons --save
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-**Step to Run Application:** Run the application using the following command from the root directory of the project:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-npm start
+## Learn More
 
-**Output:** Now open your browser and go to http://localhost:3000/
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
